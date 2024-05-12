@@ -116,8 +116,27 @@ footer a:hover{
 }
 
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+
+    body{
+        background-color: hsl(0, 0%, 100%);
+    }
+
     main{
-        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 80vw;
+    }
+
+    main img{
+        width: 100%;
+    }
+
+    .preparation-time{
+        width: 100%;
+    }
+
+    table{
+        width: 100%;
     }
 }
